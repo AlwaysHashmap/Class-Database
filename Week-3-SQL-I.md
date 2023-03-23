@@ -73,7 +73,7 @@ WHERE <selection condition>
 **SELECT 문**
 * Table에서 정보를 Select하기 위해 사용
 * Select 문장은 Select절, From절, Where절과 같은 3가지 절로 구성
-* (SELECT *) = 모든 Attribute를 select | (SELECT distinct) = 중복된 튜플 삭제하고 하나만 출력
+* (SELECT *) = 모든 Attribute를 select | (SELECT distinct) = 중복된 튜플 삭제하고 하나만 출력 (기본은 SELECT ALL, 하지만 ALL은 생략)
 
 ```
 /* TYPE 1 */
